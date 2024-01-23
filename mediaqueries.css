@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+    main {
+        height: auto;
+        min-height: 100vh;
+        min-width: 330px;
+        padding: 1rem 0;
+    }
+    
+    .hero {
+        flex-flow: column wrap;
+        gap: 3rem;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+}
